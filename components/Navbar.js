@@ -16,13 +16,13 @@ const Navbar = () => {
         <span className='text-xl md:text-base my-3 md:my-0'>Get Me a Chai!</span>
       </Link>
 
-      { <ul className='flex justify-between gap-4'>
+      {/* <ul className='flex justify-between gap-4'>
         <li>Home</li>
         <li>About</li>
         <li>Projects</li>
         <li>Sign Up</li>
         <li>Login</li>
-      </ul> }
+      </ul> */}
 
       <div className='relative flex justify-center items-center  md:block gap-4'>
         {session && <>
@@ -58,4 +58,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar 
+export default Navbar

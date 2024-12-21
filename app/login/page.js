@@ -1,6 +1,6 @@
 "use client"
 import React, {useEffect} from 'react'
-import { useSession, signIn, signout} from "next-auth/react"
+import { useSession, signIn, signOut } from "next-auth/react"
 import { useRouter } from 'next/navigation'
 
 const Login = () => {
