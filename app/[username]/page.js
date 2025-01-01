@@ -1,8 +1,7 @@
 import React from 'react'
 import PaymentPage from '@/components/PaymentPage'
 import { notFound } from "next/navigation"
-import connectDb from '@/db/connectDb'
-import User from '@/models/User'
+
 const Username = async ({ params }) => {
 
   // If the username is not present in the database, show a 404 page
