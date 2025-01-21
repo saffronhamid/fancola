@@ -4,6 +4,9 @@ import NextAuth from 'next-auth'
 // import GoogleProvider from 'next-auth/providers/google'
 // import EmailProvider from 'next-auth/providers/email'
 import GitHubProvider from "next-auth/providers/github";
+import mongoose from 'mongoose';
+import user from '@/models/user';
+import payment from '@/models/payment';
 
  
 
@@ -35,7 +38,8 @@ export const authoptions =  NextAuth({
     callbacks: {
       async signIn({ user, account, profile, email, credentials }) {
          if(account.provider == "github") { 
-          await connectDb()
+          await connectDb("mongodb://localhost:27017/chai"
+          )
           // Check if the user already exists in the database
           const currentUser =  await User.findOne({email: email}) 
           if(!currentUser){
