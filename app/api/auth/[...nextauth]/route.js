@@ -7,7 +7,7 @@ import GitHubProvider from "next-auth/providers/github";
 import mongoose from 'mongoose';
 import user from  '@/models/user';
 import payment from  '@/models/payment';
-
+import connectDb from '@/db/connectDb';
  
 
 export const authoptions =  NextAuth({
