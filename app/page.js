@@ -40,7 +40,7 @@ export default function Home() {
     </div>
     <div className="item space-y-3 flex flex-col items-center justify-center">
       <img className="bg-slate-400 rounded-full p-2 text-black" width={88} src="/coin.gif" alt="" />
-      <p className="font-bold text-center">Fans want to contribute</p>
+      <p className="font-bold text-center">Fans waaaaaaaaaaaaaaaaaaaaaaaaaaaant to contribute</p>
       <p className="text-center">Your fans are willing to contribute financially</p>
     </div>
     <div className="item space-y-3 flex flex-col items-center justify-center">
