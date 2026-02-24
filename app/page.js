@@ -39,12 +39,7 @@ export default function Home() {
       <p className="text-center">Your fans are available to support you</p>
     </div>
    
-    <div className="item space-y-3 flex flex-col items-center justify-center">
-      <img className="bg-slate-400 rounded-full p-2 text-black" width={88} src="/group.gif" alt="" />
-      <p className="font-bold text-center">Fans want to collaborate</p>
-      <p className="text-center">Your fans are ready to collaborate with you</p>
-    </div>
-  </div>
+    
 </div>
       <div className="bg-white h-1 opacity-10">
       </div>
